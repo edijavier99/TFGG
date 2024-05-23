@@ -1,0 +1,38 @@
+.react-confirm-alert-body {
+  text-align: center;
+}
+
+.react-confirm-alert-button-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.react-confirm-alert-button-group button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.react-confirm-alert-button-group button:first-child {
+  background-color: green;
+  color: white;
+}
+
+.react-confirm-alert-button-group button:first-child:hover,
+.react-confirm-alert-button-group button:first-child:focus {
+  background-color: lightgreen;
+}
+
+.react-confirm-alert-button-group button:last-child {
+  background-color: red;
+  color: white;
+}
+
+.react-confirm-alert-button-group button:last-child:hover,
+.react-confirm-alert-button-group button:last-child:focus {
+  background-color: lightcoral;
+}
